@@ -1,7 +1,12 @@
 <template>
-  <Tutorial/>
+  <Stopwatch />
 </template>
 
 <script>
-export default {}
+import Stopwatch from '~/components/Stopwatch'
+export default {
+  components: {
+Stopwatch,
+  },
+}
 </script>
